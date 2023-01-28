@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>El gato</title>
+    <meta name="viewport" content="with=device-width", inital-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df0402a282.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>           
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a> 
+            <div class="nav-links">
+                
+                <ul>
+                
+                <li><b><a href="index.html">HOME</a></b></li> 
+                
+                <li><b><a href="information.html">INFORMATION</a></b></li>
+                
+                <li><b><a href="gallery.html">GALLERY</a></b></li>
+                
+                <li><b><a href="about.html">ABOUT</a></b></li>
+                
+                <li><b><a href="sitemap.html">SITEMAP</a></b></li>
+
+                <li><b><a href="contact.html">CONTACT</a></b></li>
+                <br>
+                <br>
+                <hr>
+                </ul>
+                
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+            <h1>Contact Us</h1>       
+        </section>    
+
+<!------ contact ------>
+    <section class="location">    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d406.0223290836815!2d121.06270607609535!3d14.49862638073723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1674042985756!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>224-A Mulawin St.</h5>
+                        <p>Purok 3, New Lower Bicutan, Taguig City</p>  
+                    </span>    
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+63 15095 6310</h5>
+                        <p>Wag Nyo Po Akong Tawagan Pls</p>  
+                    </span>    
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>lunabrian006@gmail.com</h5>
+                        <p>Wag Nyo Rin Po Akong I-email Pls</p>  
+                    </span>    
+                </div>
+            </div>
+<div class="contact-col">
+
+    <form action="">
+    <input type="text" placeholder="Enter Your Name" required>
+    <input type="email" placeholder="Enter Email Address" required>   
+    <textarea rows="6" placeholder="Message" required></textarea> 
+    <button type="submit" class="hero-btn red-btn">Send Message</button>
+    </form>
+</div>   
+        </div>
+    </section>
+
+<!------ Footer ------>
+
+    <section class="footer">
+        <hr>
+        <h4>About Us</h4>
+        <p>This Website contains pictures of cats whether they be cute, funny or cat memes.<br>
+            That is only what this Website contains. I hope you enjoy this Website.</p>
+        <p>Copyright ©2023 Gato. Created by Buwan</p>    
+        <div class="icons">
+            <a href="https://www.facebook.com/mbfluna" target=_blank> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://www.twitter.com/" target=_blank> <i class="fa fa-twitter"></i> </a>
+            <a href="https://www.instagram.com/" target=_blank> <i class="fa fa-instagram"></i> </a>
+        </div>
+    </section>
+
+<!------Javascript for Toggle Menu------>    
+<script>
+
+    var naLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+     
+</script>
+</body>
+</html>

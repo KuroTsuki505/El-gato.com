@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>El gato</title>
+    <meta name="viewport" content="with=device-width", inital-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df0402a282.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>           
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a> 
+            <div class="nav-links">
+                
+                <ul>
+                
+                    <li><b><a href="index.html">HOME</a></b></li> 
+                
+                    <li><b><a href="information.html">INFORMATION</a></b></li>
+                    
+                    <li><b><a href="gallery.html">GALLERY</a></b></li>
+                    
+                    <li><b><a href="about.html">ABOUT</a></b></li>
+                    
+                    <li><b><a href="sitemap.html">SITEMAP</a></b></li>
+    
+                    <li><b><a href="contact.html">CONTACT</a></b></li>
+                <br>
+                <br>
+                <hr>
+                </ul>
+                
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+            <h1>Gallery</h1>       
+        </section>    
+
+<!------ Gallery ------>
+    
+<section class="gallery">
+    <h1>Cute Cat Pictures</h1>
+    <div class="row">
+        <div class="gallery-col">
+            <img src="image/1.jpg">
+        </div>
+        <div class="gallery-col">
+            <img src="image/2.jpg">
+        </div>
+        <div class="gallery-col">
+            <img src="image/3.jpg">
+        </div>
+    </div>
+
+    <h1>Funny Cat Pictures</h1>
+    <div class="row">
+        <div class="gallery-col">
+            <img src="image/cat.jpeg">
+        </div>
+        <div class="gallery-col">
+            <img src="image/posi.jpg">
+        </div>
+        <div class="gallery-col">
+            <img src="image/cat.jpeg">
+        </div>
+    </div>
+
+    <h1>Memes From Hell Pictures</h1>
+    <div class="row">
+        <div class="gallery-col">
+            <img src="image/111.jpg">
+        </div>
+        <div class="gallery-col">
+            <img src="image/11.jpg">
+        </div>
+        <div class="gallery-col">
+            <img src="image/333.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!------ Footer ------>
+
+    <section class="footer">
+        <hr>
+        <h4>About Us</h4>
+        <p>This Website contains pictures of cats whether they be cute, funny or cat memes.<br>
+            That is only what this Website contains. I hope you enjoy this Website.</p>
+        <p>Copyright ©2023 Gato. Created by Buwan</p>  
+        <div class="icons">
+            <a href="https://www.facebook.com/mbfluna" target=_blank> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://www.twitter.com/" target=_blank> <i class="fa fa-twitter"></i> </a>
+            <a href="https://www.instagram.com/" target=_blank> <i class="fa fa-instagram"></i> </a>
+        </div>
+    </section>
+
+<!------Javascript for Toggle Menu------>    
+<script>
+
+    var naLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+     
+</script>
+</body>
+</html>

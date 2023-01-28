@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>El gato</title>
+    <meta name="viewport" content="with=device-width", inital-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df0402a282.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>           
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a> 
+            <div class="nav-links">
+                
+                <ul>
+                
+                    <li><b><a href="index.html">HOME</a></b></li> 
+                
+                    <li><b><a href="information.html">INFORMATION</a></b></li>
+                    
+                    <li><b><a href="gallery.html">GALLERY</a></b></li>
+                    
+                    <li><b><a href="about.html">ABOUT</a></b></li>
+                    
+                    <li><b><a href="sitemap.html">SITEMAP</a></b></li>
+    
+                    <li><b><a href="contact.html">CONTACT</a></b></li>
+                <br>
+                <br>
+                <hr>
+                </ul>
+                
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+
+    <div class="text-box">
+        <h1>This is El Gato's World</h1>
+        <p>This Webpage is dedicated all about El Gato's(The Cat in spanish).<br>
+            You will see pictures of cats whether they will be cute,<br> 
+            funny or just pictures of cats with absolutely no context.</p>    
+        <a href="about.html" class="hero-btn">Click Here To Know More About This Website</a>    
+        </div>            
+    </section>
+
+<!----- preview ------>     
+
+    <section class="preview">
+        <h1>Preview</h1>
+        <p><b>Here You Can See Which Categories We Have</b></p>
+
+        <div class="row">
+            <div class="preview-col">
+                <img src="image/gato.png">
+                <div class="layer"> 
+                    <h3>CUTE</h3>
+                </div>
+            </div>
+        <div class="preview-col">
+            <img src="image/funny.png">
+            <div class="layer">
+                <h3>FUNNY</h3> 
+            </div>
+        </div>
+        <div class="preview-col">
+            <img src="image/memes.png">
+            <div class="layer">
+                <h3>MEMES FROM HELL</h3> 
+            </div>
+        </div>
+    </section>
+
+    <!------ testimonials ------->
+
+    <section class="testimonials">
+        <h1>What People Think Of About Our Website</h1>
+        <p>Lmao What Even Is This</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="image/w.jpg"> 
+                <div>
+                    <p>I Hate it, but I like cats. But I still hate it</p>
+                    <h3>Wanye Kest</h3>
+                    <span class="fa fa-star"></span>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                 <img src="image/j.jpg">
+                 <div>
+                    <p>mmmhh cats mmmmh me like</p>
+                    <h3>Jebron Lames</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+    </section>
+
+    <!----- Footer ----->
+
+    <section class="footer">
+        <hr>
+        <h4>About Us</h4>
+        <p>This Website contains pictures of cats whether they be cute, funny or cat memes.<br>
+            That is only what this Website contains. I hope you enjoy this Website.</p>
+        <p>Copyright ©2023 Gato. Created by Buwan</p>  
+        <div class="icons">
+            <a href="https://www.facebook.com/mbfluna" target=_blank> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://www.twitter.com/" target=_blank> <i class="fa fa-twitter"></i> </a>
+            <a href="https://www.instagram.com/" target=_blank> <i class="fa fa-instagram"></i> </a>
+        </div>
+    </section>
+
+<!------Javascript for Toggle Menu------>    
+<script>
+
+    var naLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+     
+</script>
+</body>
+</html>
